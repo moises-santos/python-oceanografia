@@ -1,0 +1,29 @@
+clonar em nova pasta local
+selecionar a pasta criada para o projeto e dar: git init
+ir no repositório do github e copiar o endereço
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+CRIANDO AMBIENTE VIRTUAL (NO VSCOD)
+python3 -m venv env
+.\env\Scripts\Activate.ps1
+
+OBS: apartir dai, já é possível escolher o python no ambiente virtual como interpretador
+obs: tem um python.exe em .\venv\Scripts\
+pip install -r bibliotecas
+ou pip install bibliotecas
+(não sei dizer porque das várias vezes que eu tentei, um destes não deu certo)
+
+configurar comando para limpar terminal:
+File > Preferences > Keyboard Shortcuts
+workbench.action.terminal.clear
+
+GIT NO SPYDER:
+É necessário que a pasta já esteja com versionamento, ou seja, com "git init"
+No spyder basta apenas ir em projetos>Novo Projeto ou Abrir projeto (caso já exista o projeto)
+Apartir daí já é possivel usar git no próprio console do spyder
+exemplos: (usar sempre o "!" antes do comando)
+!git status
+!git add .
+!git commit -m 'mensagem'
+!git push origin master
+!git status
