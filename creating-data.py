@@ -99,11 +99,11 @@ cellMatriz = {}
 array = np.empty(shape)
 
 limites = {'vel':[1,2],
-           'dir':[[30,120],[210,300],[120,210]],
+           'dir':[[60,120],[240,300],[240,120]],
            'amp':[max(fatorAmp), 100],
            'cor':[max(fatorAmp)*2, max(fatorAmp)*2.5]
            }
-
+index = 0
 # criando array de dados dentro das celulas
 for var in varMatricial:
     cellMatriz[var] = np.copy(array)
@@ -115,19 +115,35 @@ for var in varMatricial:
                 cellMatriz[var][row,col] = fatorVel[col]*cellMatriz[var][row,col]
             cellMatriz[var][row,round(cell['press'][row])] =\
                 cellMatriz[var][row,round(cell['press'][row])]*1.25
-    # # verificação visual do campo de velocidade
-    # plt.imshow(cellMatriz['vel'].T,
-    #            aspect='auto',
-    #            interpolation = 'nearest',
-    #            origin = 'lower',
-    #            cmap='jet')
+    # verificação visual do campo de velocidade
+        # plt.imshow(cellMatriz['vel'].T,
+        #             aspect='auto',
+        #             interpolation = 'nearest',
+        #             origin = 'lower',
+        #             cmap='jet')
     
-    elif var == 'dir': # levar em consideração a maré para alternancia da direção
+    elif var == 'dir': #levar em consideração a maré para alternancia da direção
+        cellMatriz[var] = np.copy(array)
         for row in range(len(array)):
-            cellMatriz[var][row,:] = [random.uniform(limites[var][0],limites[var][1])\
-                                      for _ in range(celulasTotais)]
-                
+            if row > 0:
+                if cell['press'][row - 1] - cell['press'][row] >= -.025:
+                    index = 0
+                elif cell['press'][row - 1] - cell['press'][row] <= -.025:
+                    index = 1
+                else:
+                    index = 3
             
+            cellMatriz[var][row,:] = [random.uniform(limites[var][index][0],
+                                                     limites[var][index][1])\
+                                      for _ in range(celulasTotais)]
+        
+        # verificação visual do campo de direção
+        # plt.imshow(cellMatriz['dir'].T,
+        #             aspect='auto',
+        #             interpolation = 'nearest',
+        #             origin = 'lower',
+        #             cmap='jet')
+
     elif var == 'amp':
         for row in range(len(array)):
             cellMatriz[var][row,:] = [random.uniform(limites[var],limites[var])\
