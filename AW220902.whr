@@ -1,0 +1,376 @@
+[W:\empresa\MOISES\REVISÕES\cliente\Dados AWAC 600\AW220902.WPR]
+---------------------------------------------------------------------
+Number of measurements                1055
+Number of checksum errors             0
+Number of wave bursts                 1054
+Number of bad bursts                  0
+Time of first measurement             22/09/2021 08:00:00.000
+Time of last measurement              05/11/2021 06:05:01.000
+
+User setup
+---------------------------------------------------------------------
+Profile interval                      1800 sec
+Number of cells                       22
+Cell size                             100 cm
+Average interval                      300 sec
+Measurement load                      25 %
+Transmit pulse length                 1.00 m
+Blanking distance                     0.50 m
+Compass update rate                   1 sec
+Wave measurements                     ENABLED
+Wave - Powerlevel                     HIGH
+Wave - Interval                       3600 sec
+Wave - Number of samples              2048
+Wave - Sampling rate                  1 Hz
+Wave - SUV data collection            DISABLED
+Wave - Ice data collection            DISABLED
+Onboard wave processing               DISABLED
+Analog input 1                        NONE
+Analog input 2                        NONE
+Power output                          DISABLED
+Powerlevel                            HIGH-
+Coordinate system                     ENU
+Sound speed                           MEASURED
+Salinity                              35.0 ppt
+Distance between pings                93.72 m
+Number of beams                       3
+Number of pings per burst             1
+Software version                      1.47 Beta5
+Deployment name                       AW2209
+Wrap mode                             OFF
+Deployment time                       22/09/2021 08:00:00
+Comments                              Fundeio AWAC no dia 22/09/21
+System1                               55
+System2                               73
+System3                               14
+System4                               4095
+System5                               512
+System9                               32
+System10                              0
+System11                              0
+System12                              0
+System13                              0
+System14                              1
+System16                              22
+System17                              3534
+System22                              3600
+System28                              1
+System29                              0
+System30                              2
+System31                              15618 15646 15673 15699
+System32                              6
+System33                              29490
+System34                              132
+System35                              866
+System36                              8482
+System38                              100
+System39                              8
+System40                              446
+System41                              0
+System42                              0
+System43                              0
+System44                              0
+System45                              6
+Start command                         Recorder deployment
+CRC download                          ON
+
+Hardware configuration
+---------------------------------------------------------------------
+Serial number                         WPR 2452
+Hardware revision                     C
+Recorder size                         3773 MByte
+Firmware version                      3.41 AST
+Velocity range                        NORMAL
+Power output                          12V
+Analog input #1 calibration (a0, a1)  -1471, 8826
+Analog input #2 calibration (a0, a1)  -1471, 8826
+Sync signal data out delay            0 sec
+Sync signal power down delay          0 sec
+ProLog ID                             1124
+ProLog firmware version               4.24
+SD Card Inserted                      YES
+SD Card Ready                         YES
+SD Card Write protected               NO
+SD Card Type                          SDHC
+SD Card Supported                     YES
+
+Head configuration
+---------------------------------------------------------------------
+Pressure sensor                       YES
+Compass                               YES
+Tilt sensor                           YES
+System 1                              0
+Head frequency                        600 kHz
+Serial number                         WAV 6998
+Transformation matrix                 1.5774 -0.7891 -0.7891
+                                      0.0000 -1.3662 1.3662
+                                      0.3677 0.3677 0.3677
+Magnetometer calibration matrix       0.9559 -0.0226 -0.0019
+                                      -0.0062 0.9824 -0.0059
+                                      -0.0150 -0.0003 1.0000
+Compass hard iron calibration         11 -9 35
+Pressure sensor calibration           0 0 16249 8351
+Number of beams                       3
+System5                               25 25 25 0
+System7                               -19812 1982 11638 -339
+                                      -20040 -1584 11752 215
+System8                               1 0 0
+                                      0 1 0
+                                      0 0 1
+System9                               1 0 0
+                                      0 -1 0
+                                      0 0 -1
+System10                              0 1 1 0
+System11                              0 1 -1 0
+System13                              1481 259 7128 10855
+System14                              -20207 -144 12101 -18
+                                      -20356 1414 12109 -343
+System15                              31321 -739 -63 -204
+                                      32190 -192 -491 -10
+                                      32767 11 -9 35
+                                      0 0 0 0
+System16                              0 0 0 0
+System17                              2730
+System18                              3600
+System19                              3600
+System20                              10000
+
+Processing configuration
+---------------------------------------------------------------------
+PdWaveBase Version                    3.38
+Processing method                     MLM-AST
+Wave Coordinate System                Beam
+Spectrum Selected                     Optimized
+Wave Direction                        From
+Beams Included                        1 2 3 4
+Number of Bins for Smoothing          64
+Start Frequency                       0.02 Hz
+End Frequency                         0.49 Hz
+Start Frequency AST                   0.02 Hz
+End Frequency AST                     0.99 Hz
+Frequency Step                        0.01 Hz
+Mounting Height                       0.50 m
+Directional Offset                    0.00 deg
+Pressure Offset                       0.00 dbar
+
+Current Data QC settings
+---------------------------------------------------------------------
+Low signal SNR threshold              DISABLED
+Sidelobe rejection                    DISABLED
+Beam rejection                        Use all beams
+Remove tilt effects                   DISABLED
+Compass offset                        0.0 deg
+Pressure Offset                       0.0 dbar
+Velocity variations rejection         DISABLED
+Echo spikes rejection                 DISABLED
+
+Data file format
+---------------------------------------------------------------------
+[W:\empresa\MOISES\REVISÕES\cliente\Dados AWAC 600\AW220902.v1]
+ 1   Velocity Cell 1 (Beam1|X|East)   (m/s)
+ 2   Velocity Cell 2 (Beam1|X|East)   (m/s)
+     .
+     .
+ n   Velocity Cell n (Beam1|X|East)   (m/s)
+---------------------------------------------------------------------
+[W:\empresa\MOISES\REVISÕES\cliente\Dados AWAC 600\AW220902.v2]
+ 1   Velocity Cell 1 (Beam2|Y|North)  (m/s)
+ 2   Velocity Cell 2 (Beam2|Y|North)  (m/s)
+     .
+     .
+ n   Velocity Cell n (Beam2|Y|North)  (m/s)
+---------------------------------------------------------------------
+[W:\empresa\MOISES\REVISÕES\cliente\Dados AWAC 600\AW220902.v3]
+ 1   Velocity Cell 1 (Beam3|Z|Up)     (m/s)
+ 2   Velocity Cell 2 (Beam3|Z|Up)     (m/s)
+     .
+     .
+ n   Velocity Cell n (Beam3|Z|Up)     (m/s)
+---------------------------------------------------------------------
+[W:\empresa\MOISES\REVISÕES\cliente\Dados AWAC 600\AW220902.a1]
+ 1   Amplitude Cell 1 (Beam1)         (counts)
+ 2   Amplitude Cell 2 (Beam1)         (counts)
+     .
+     .
+ n   Amplitude Cell n (Beam1)         (counts)
+---------------------------------------------------------------------
+[W:\empresa\MOISES\REVISÕES\cliente\Dados AWAC 600\AW220902.a2]
+ 1   Amplitude Cell 1 (Beam2)         (counts)
+ 2   Amplitude Cell 2 (Beam2)         (counts)
+     .
+     .
+ n   Amplitude Cell n (Beam2)         (counts)
+---------------------------------------------------------------------
+[W:\empresa\MOISES\REVISÕES\cliente\Dados AWAC 600\AW220902.a3]
+ 1   Amplitude Cell 1 (Beam3)         (counts)
+ 2   Amplitude Cell 2 (Beam3)         (counts)
+     .
+     .
+ n   Amplitude Cell n (Beam3)         (counts)
+---------------------------------------------------------------------
+[W:\empresa\MOISES\REVISÕES\cliente\Dados AWAC 600\AW220902.sen]
+ 1   Month                            (1-12)
+ 2   Day                              (1-31)
+ 3   Year
+ 4   Hour                             (0-23)
+ 5   Minute                           (0-59)
+ 6   Second                           (0-59)
+ 7   Error code
+ 8   Status code
+ 9   Battery voltage                  (V)
+10   Soundspeed                       (m/s)
+11   Heading                          (degrees)
+12   Pitch                            (degrees)
+13   Roll                             (degrees)
+14   Pressure                         (dbar)
+15   Temperature                      (degrees C)
+16   Analog input 1
+17   Analog input 2
+
+---------------------------------------------------------------------
+[W:\empresa\MOISES\REVISÕES\cliente\Dados AWAC 600\AW220902.dat]
+Header...
+ 1   Month                            (1-12)
+ 2   Day                              (1-31)
+ 3   Year
+ 4   Hour                             (0-23)
+ 5   Minute                           (0-59)
+ 6   Second                           (0-59)
+ 7   Error code
+ 8   Status code
+ 9   Battery voltage                  (V)
+10   Soundspeed                       (m/s)
+11   Heading                          (degrees)
+12   Pitch                            (degrees)
+13   Roll                             (degrees)
+14   Pressure                         (dbar)
+15   Temperature                      (degrees C)
+16   Analog input 1
+17   Analog input 2
+18   Number of beams
+19   Number of cells
+
+Velocity profile...
+ 1   Cell number
+ 2   Cell position                    (m)
+ 3   Velocity (Beam1|X|East)          (m/s)
+ 4   Velocity (Beam2|Y|North)         (m/s)
+ 5   Velocity (Beam3|Z|Up)            (m/s)
+ 6   Amplitude (Beam1)                (counts)
+ 7   Amplitude (Beam2)                (counts)
+ 8   Amplitude (Beam3)                (counts)
+ 9   Speed                            (m/s)
+ 10  Direction                        (degrees)
+ ...repeated for all cells in profile.
+
+---------------------------------------------------------------------
+[W:\empresa\MOISES\REVISÕES\cliente\Dados AWAC 600\AW220902.csv]
+ 1   DateTime                         
+ 2   Battery voltage                  (V)
+ 3   Heading                          (degrees)
+ 4   Pitch                            (degrees)
+ 5   Roll                             (degrees)
+ 6   Pressure                         (dbar)
+ 7   Temperature                      (degrees C)
+ 8   Analog input 1
+ 9   Analog input 2
+10   Speed cell 1                     (m/s)
+11   Direction cell 1                 (degrees)
+10-11 repeated for all cells in profile.
+
+---------------------------------------------------------------------
+[W:\empresa\MOISES\REVISÕES\cliente\Dados AWAC 600\AW220902.wap]
+ 1   Month                            (1-12)
+ 2   Day                              (1-31)
+ 3   Year
+ 4   Hour                             (0-23)
+ 5   Minute                           (0-59)
+ 6   Second                           (0-59)
+ 7   Spectrum type                    (0-Pressure, 1-Velocity, 3-AST)
+ 8   Significant height (Hm0)         (m)
+ 9   Mean 1/3 height (H3)             (m)
+10   Mean 1/10 height (H10)           (m)
+11   Maximum height (Hmax)            (m)
+12   Mean Height (Hmean)              (m)
+13   Mean  period (Tm02)              (s)
+14   Peak period (Tp)                 (s)
+15   Mean zerocrossing period (Tz)    (s)
+16   Mean 1/3 Period (T3)             (s)
+17   Mean 1/10 Period (T10)           (s)
+18   Maximum Period (Tmax)            (s)
+19   Peak direction (DirTp)           (deg)
+20   Directional spread (SprTp)       (deg)
+21   Mean direction (Mdir)            (deg)
+22   Unidirectivity index
+23   Mean Pressure                    (dbar)
+24   Mean AST distance                (m)
+25   Mean AST distance (Ice)          (m)
+26   No Detects
+27   Bad Detects
+28   Number of Zero-Crossings
+29   Current speed (wave cell)        (m/s)
+30   Current direction (wave cell)    (degrees)
+31   Error Code
+
+---------------------------------------------------------------------
+[W:\empresa\MOISES\REVISÕES\cliente\Dados AWAC 600\AW220902.was]
+     Frequency Vector                 (Hz)
+ 1   Power Spectrum                   (m^2/Hz)
+ 2   Power Spectrum                   (m^2/Hz)
+     .
+     .
+ n   Power Spectrum                   (m^2/Hz)
+
+---------------------------------------------------------------------
+[W:\empresa\MOISES\REVISÕES\cliente\Dados AWAC 600\AW220902.wdr]
+     Frequency Vector                 (Hz)
+ 1   Directional Spectrum             (deg)
+ 2   Directional Spectrum             (deg)
+     .
+     .
+ n   Directional Spectrum             (deg)
+
+---------------------------------------------------------------------
+[W:\empresa\MOISES\REVISÕES\cliente\Dados AWAC 600\AW220902.wds]
+Full Directional Spectrum:
+Each row is one frequency, with a matching start frequency
+and frequency step as the data in the energy file *.WAS
+(Note: Energy spectra for AST data can extend to a higher end
+frequency if configured in the processing settings).
+Default frequency is 0.02:0.01:[0.49 or 0.99] Hz 
+Each column is dicretized by 4 degrees 0:4:356 degrees
+ Burst 1  [rows = # frequencies]x[90 columns]   (Normalized-Energy/degree)
+ Burst 2
+       .
+       .
+ Burst n
+
+---------------------------------------------------------------------
+[W:\empresa\MOISES\REVISÕES\cliente\Dados AWAC 600\AW220902.wft
+Format for WaveForce Tecknologies Wavector import
+
+---------------------------------------------------------------------
+[W:\empresa\MOISES\REVISÕES\cliente\Dados AWAC 600\AW220902.wcf]
+Fourier Coefficients:
+ Burst 1  A1 [rows = # frequencies]
+ Burst 1  B1 [rows = # frequencies]
+ Burst 1  A2 [rows = # frequencies]
+ Burst 1  B2 [rows = # frequencies]
+       .
+       .
+ Burst n  A1 [rows = # frequencies]
+ Burst n  B1 [rows = # frequencies]
+ Burst n  A2 [rows = # frequencies]
+ Burst n  B2 [rows = # frequencies]
+
+---------------------------------------------------------------------
+[W:\empresa\MOISES\REVISÕES\cliente\Dados AWAC 600\AW220902.wst]
+AST Time Series:
+ Burst 1  Sample 1   AST distance (meter)  Pressure (dBar)
+ Burst 1  Sample 2   AST distance (meter)  Pressure (dBar)
+ Burst 1  Sample n   AST distance (meter)  Pressure (dBar)
+       .
+       .
+ Burst n  Sample 1   AST distance (meter)  Pressure (dBar)
+ Burst n  Sample 2   AST distance (meter)  Pressure (dBar)
+ Burst n  Sample n   AST distance (meter)  Pressure (dBar)
